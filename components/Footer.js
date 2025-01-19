@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-import '../styles/globals.css';
+import '../styles/style.css';
 
 const Map = dynamic(() => import('./Map'), { ssr: false }); // Disable SSR for the Map component
 

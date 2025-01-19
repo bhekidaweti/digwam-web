@@ -1,7 +1,7 @@
 import Header from '../components/Header';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
-import '../styles/globals.css';
+import '../styles/style.css';
 import Img from 'next/image';
 
 
