@@ -1,7 +1,6 @@
 import Header from '../components/Header';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
-import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Home() {
     return (
@@ -19,7 +18,6 @@ export default function Home() {
                         <li><i class="fa-solid fa-check"></i> we also sell tombstones and et</li>
                     </ul>
                 <p>Explore our affordable and high-quality tombstones, headstones and grave maintenance package </p>
-             
             </section>
             <Footer />
         </>
