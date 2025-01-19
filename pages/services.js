@@ -3,7 +3,6 @@ import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import services from '../data/services';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import '../styles/style.css';
 
 
 
