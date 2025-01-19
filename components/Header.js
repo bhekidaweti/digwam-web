@@ -1,11 +1,12 @@
 import '../styles/globals.css';
+import Img from 'next/image';
 
 
 export default function Header() {
     return (
         <header className="header">
             <div className="header-content">
-                <img
+                <Img
                     src="/images/digwa-logo.png"
                     alt="Digwamaje Logo"
                     width="50"

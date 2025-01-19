@@ -2,6 +2,7 @@ import Header from '../components/Header';
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
 import '../styles/globals.css';
+import Img from 'next/image';
 
 
 export default function Home() {
@@ -11,18 +12,25 @@ export default function Home() {
             <Menu />
             <section className="container text-center mt-4">
                 <h1>Welcome to Digwamaje Grave Services</h1>
-                <h2>Your trusted partner for dignified grave services.</h2>
+                <p>Your trusted partner for dignified grave services.</p>
             </section>
 
             <section className="image-gallery">
                 <div className="image-container">
-                    <img src="/images/slide1.jpg" alt="Grave Services 1" />
+                    <Img 
+                        src="/images/slide1.jpg" 
+                        alt="Grave Services" 
+                        height="200"
+                        width="200"
+                    />
                 </div>
                 <div className="image-container">
-                    <img src="/images/slide2.jpg" alt="Grave Services 2" />
-                </div>
-                <div className="image-container">
-                    <img src="/images/slide3.jpg" alt="Grave Services 3" />
+                    <Img 
+                        src="/images/slide2.jpg" 
+                        alt="Grave Services"
+                        height="200"
+                        width="200"
+                     />
                 </div>
             </section>
 
